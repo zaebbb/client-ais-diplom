@@ -1,0 +1,119 @@
+
+
+.margin-left-20{
+  margin-left: 20px;
+}
+
+.margin-left-10{
+  margin-left: 10px;
+}
+
+.btn-close{
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat !important;
+}
+
+.authForm{
+  z-index: 10000000000;
+}
+
+.main-content-styling{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #454D55;
+
+  z-index: 10000;
+}
+
+.images_responsive{
+  width: 150px;
+}
+
+.modalInfoClearHash{
+  z-index: 11;
+}
+
+pre{
+  padding: 0 !important;
+  color: #fff;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-size: 14px;
+}
+
+.table__info{
+  font-size: 14px;
+}
+
+.icon__edit{
+  margin-right: 10px;
+}
+
+.filter__input{
+  max-width: 500px !important;
+}
+
+.scanner__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 650px;
+  height: 650px;
+  border-radius: 20px;
+}
+
+.hidden__element{
+  opacity: 0 !important;
+  overflow: hidden !important;
+  display: none !important;
+  transform: scale(0) !important;
+}
+
+.content__position{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content__position h4{
+  text-align: center;
+}
+
+.scanner__box.success .video_scanner,
+.scanner__box.error .video_scanner,
+.scanner__box.loading .video_scanner,
+.scanner__box.success .scan-region-highlight,
+.scanner__box.error .scan-region-highlight,
+.scanner__box.loading .scan-region-highlight{
+  opacity: 0;
+}
+
+.select2-selection__choice{
+  background-color: #007bff !important;
+  border-color: #006fe6 !important;
+}
+
+.select2-selection__choice__remove{
+  color: rgba(255,255,255,.7) !important;
+}
+
+.select2-selection--single{
+  display: none !important;
+}
+
+.select2-selection--multiple{
+  background-color: #343a40 !important;
+  color: #fff !important;
+  border-color: #6c757d !important;
+}
+
+.selectGenderSpan{
+  height: 50px !important;
+}
+
+.fileText,
+select{
+  color: #939BA2 !important;
+}
